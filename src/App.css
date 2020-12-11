@@ -1,0 +1,106 @@
+html{
+    height: 100%;
+}
+
+body, #root{
+    padding: 0;
+    margin: 0;
+    background-image: url('./assets/images.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.acesso{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-image: url('./assets/download.png');
+    background-color: #cccccc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.formulario .label_login{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.formulario{
+    position: absolute;
+    width: 300px;
+    padding: 40px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: white;    
+    background-color: #0c1a23ca;
+    transform: translate(-50%,-50%);
+}
+
+.formulario > input[type="text"], input[type="password"]{
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 2px;
+    background-color: #17252f85;
+    color: white;
+    border-color: white;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+}
+
+.formulario > input[type="submit"]{
+    margin-top: 25px;
+    background-color: #071014;
+    border: 0;
+    padding: 5px;
+    padding-left: 20%;
+    padding-right: 20%;
+    color: white;
+    transition: background-color 1s, box-shadow 1s;
+}
+
+.formulario > input[type="submit"]:hover{
+    background-color: #102530;
+    color: white;
+    box-shadow: 0px 0px 10px 5px #102530;
+}
+
+.formulario > input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.formulario {
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+.cadastro > a{    
+    font-style: italic;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.cadastro > a:hover{    
+    font-style: italic;
+    font-size: 14px;
+    text-decoration: none;
+}
+.valido_login{
+    border-color: rgba(255, 0, 0, 0.582) !important;
+}
+.valido_login::placeholder {
+    /* modern browser */
+    color: rgba(255, 0, 0, 0.582);
+}
+
+.valido_senha{
+    border-color: rgba(255, 0, 0, 0.582) !important;
+}
+.valido_senha::placeholder {
+    /* modern browser */
+    color: rgba(255, 0, 0, 0.582);
+}
