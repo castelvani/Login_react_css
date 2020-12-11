@@ -1,6 +1,6 @@
 # How it looks:
 
-<img alt="Image inside" src="src/assets/Images/inside.png" width="600">
+<img alt="Image inside" src="src/assets/Images/inside.png" width="879">
 
 # Getting Started with Create React App
 
